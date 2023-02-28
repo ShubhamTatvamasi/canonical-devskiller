@@ -37,7 +37,7 @@ Check `fs.file-max` value:
 sudo sysctl -a | grep file
 ```
 
-Increase the max file size limit:
+Increase the max file limit:
 ```bash
 # Set this to some large number
 sudo sysctl -w fs.file-max=99999999999999
