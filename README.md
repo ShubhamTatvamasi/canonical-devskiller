@@ -72,3 +72,8 @@ Remove imutable flag from all the files:
 chattr -i *
 ```
 
+Start apache2 service:
+```bash
+systemctl start apache2
+```
+
