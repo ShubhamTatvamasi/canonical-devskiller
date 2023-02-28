@@ -45,7 +45,7 @@ sudo sysctl -w fs.file-max=99999999999999
 
 ---
 
-- Fix the Apache server ASAP
+- Fix the Apache server ASAP.
 
 Check the apache2 service status:
 ```bash
