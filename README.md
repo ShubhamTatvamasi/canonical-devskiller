@@ -2,6 +2,8 @@
 
 ### Troubleshoot interview
 
+---
+
 - Fix `sudo` command.
 
 Error: sudo command is opening top application.
@@ -22,6 +24,9 @@ exit
 ssh ubuntu@3.113.3.190
 ```
 
+---
+
+
 - Fix `apt-get` command.
 
 Error: too many files open at the same time.
@@ -30,6 +35,8 @@ Increase the max file size limit:
 ```bash
 sudo sysctl -w fs.file-max=50000000
 ```
+
+---
 
 - Fix the Apache server ASAP
 
