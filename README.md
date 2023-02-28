@@ -39,7 +39,8 @@ sudo sysctl -a | grep file
 
 Increase the max file size limit:
 ```bash
-sudo sysctl -w fs.file-max=50000000
+# Set this to some large number
+sudo sysctl -w fs.file-max=99999999999999
 ```
 
 ---
