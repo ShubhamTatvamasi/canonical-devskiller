@@ -32,6 +32,11 @@ ssh ubuntu@3.113.3.190
 
 Error: too many files open at the same time.
 
+Check `fs.file-max` value:
+```bash
+sudo sysctl -a | grep file
+```
+
 Increase the max file size limit:
 ```bash
 sudo sysctl -w fs.file-max=50000000
