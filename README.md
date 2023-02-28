@@ -6,7 +6,7 @@
 
 - Fix `sudo` command.
 
-Error: sudo command is opening top application.
+Error: `sudo` command is opening `top` application.
 
 Check the location of `sudo` command, right location should be: `/usr/bin/sudo`
 ```bash
